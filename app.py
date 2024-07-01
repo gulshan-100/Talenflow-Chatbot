@@ -15,7 +15,7 @@ os.environ['GOOGLE_API_KEY'] = "AIzaSyAF_ZrzjlRaKvS5c8kWJZ_Mza_cD4CdK08"
 # Initialize embeddings and LLM model
 embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
 llm = GooglePalm(
-    model="gemini-pro"
+    model = "gemini-pro"
 )
 
 # Streamlit header and input field for query
