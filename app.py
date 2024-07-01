@@ -10,8 +10,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 
 # Setting up API keys
-os.environ['GOOGLE_API_KEY'] = "AIzaSyAF_ZrzjlRaKvS5c8kWJZ_Mza_cD4CdK08"
-os.environ['HUGGINGFACE_API_KEY'] = "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"
+os.environ['GOOGLE_API_KEY'] = "Gemini api"
+os.environ['HUGGINGFACE_API_KEY'] = "Hugging face api"
 
 # Initialize embeddings and LLM model
 embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
