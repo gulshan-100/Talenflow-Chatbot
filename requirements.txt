@@ -1,0 +1,7 @@
+langchain
+langchain_community
+streamlit 
+chromadb
+sentence-transformers
+langchain_google_genai
+
